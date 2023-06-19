@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;900&family=Lora:wght@500;600&family=Poppins:wght@400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body  {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lora', serif;
+}
+
+#main {
+  width: 100%;
+  background-color: #F7F6EE;
+  
+}
+#nav {
+  width: 100%;
+  height: 20vh;
+  background-color: #F7F6EE;
+
+
+}
+#heading {
+  width: 100%;
+  height: 52vh;
+  background-color: #F7F6EE;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+}
+
+#links {
+  display: flex;
+  gap: 60px;
+}
+.link {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+.link:hover{
+  border-bottom: 2px solid black;
+
+}
+
+
+#logo img {
+  height: 17px;
+}
+
+#heading{
+  padding:50px 180px ;
+}
+
+#heading h1{
+  font-size: 40px;
+  font-weight: 150;
+  letter-spacing: 2;
+  padding-bottom: 40px;
+}
+#heading p{
+  font-size: 15px;
+  /* letter-spacing: ; */
+  line-height: 1.5;
+  margin-bottom: 50px;
+  
+}
+.button{
+  color:white;
+  background-color: black;
+  padding:9px 22px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family:sans-serif;
+  font-weight: 550;
+  border-radius:60px;
+  letter-spacing: 2;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover{
+  background-color: pink;
+}
+
+#img-part{
+  width:100%;
+  height:800px;
+  background-color: #F7F6EE;
+  margin-top: 100px;
+  
+}
+
+#top{
+  position:relative;
+  z-index:2;
+}
+#back{
+  position:absolute;
+  top:350px;
+  left:275px;
+  z-index: 0;
+}
+
+#img-part img{
+ max-width: 100%;
+  max-height: 100%;
+}
+
+#touch{
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+
+
+}
+#left-touch{
+  position: relative;
+  width:50%;
+  height:600px;
+}
+#man{
+  position: relative;
+  width:500x;
+  height:600px;
+  z-index: 2;
+}
+
+#blue-dot{
+  position: absolute;
+  width:570px;
+  height: 550px;
+  top:-170px;
+  left:0px;
+  z-index: 0;
+}
+  
+#yellow-dot{
+  position: absolute;
+  width:200px;
+  height: 300px;
+  top:300px;
+  left:0px;
+  z-index:2;
+}
+
+ #green-leaf{
+  position: absolute;
+  z-index: 2;
+  height: 200px;
+  width: 200px;
+  top:350px;
+  right:50px;
+  opacity: 30px;
+
+ }
+
+
+
+
+#right-touch h1{
+  font-size: 40px;
+  font-weight: 150;
+  letter-spacing:2;
+  margin-top: 150px;
+}
+#right-touch p{
+  font-size: 15px;
+  /* letter-spacing: ; */
+  line-height: 1.5;
+  margin-top: 35px;
+  text-align: left;
+  margin-bottom: 50px;
+  
+}
+
+
+#sparrow{
+  margin-top: 100px;
+  width:70%;
+}
+
+.white{
+  color:black;
+  background-color: white;
+  padding:9px 22px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family:sans-serif;
+  font-weight: 550;
+  border-radius:60px;
+  letter-spacing: 2;
+  text-align: center;
+  text-decoration: none;
+  border:1px solid black;
+  
+  
+}
+.white:hover{
+  color:white;
+  background-color: #000;
+}
+
+#portfolio{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:40vh;
+  /* background-color: red; */
+  /* margin-top:20px; */
+  text-align: center;
+}
+
+#portfolio img{
+  position:absolute;
+  height:250px;
+  width:200px;
+  top:-123px;
+  right:0px;
+}
+#diagram{
+  width:100%;
+  height:30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  /* background-color: blue; */
+}
+
+#diagram img{
+  max-width: 100%;
+  max-height: 100%;
+
+}
+#center{
+  height:106px;
+  width:500px;
+}
+
+.img-tag {
+  height:150px;
+  width:200px;
+}
+
+#foot{
+  width:100%;
+  height: 30VH;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color:orange; */
+}
+
+span{
+  font-weight: 900;
+  
+
+}
+#left-foot{
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  
+  /* justify-content: center; */
+}
+#left-foot h5{
+
+  margin-bottom: 20px;
+  font-weight: 100;
+
+}
+#left-foot p{
+ margin-top: 12px;
+  line-height: 1.3;
+
+  font-size: 12px;
+  width: 200px;
+}
+
+#center-foot{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+
+}
+#center-foot a{
+  
+  text-decoration: none;
+  line-height: 1.56;
+  color:black;
+  font-size: 12px;
+  
+}
+#center-foot p{
+  margin-bottom: 10px;
+}
+
+#right-foot{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+#right-foot p {
+  margin-bottom: 20px;  
+  font-size: 12px;
+}
+#right-foot h5{
+  margin-bottom: 20px;
+  font-size:17px;
+  font-weight: 100;
+}
+
+
+
